@@ -1,0 +1,225 @@
+
+@keyframes mudar-cor {
+    50% { color: green; }
+    100% { color: rgb(136, 2, 214); }
+  }
+
+:root{
+    --pos-salas: crimson;
+    --fundo: transparent;
+    --cor-cabeçalho: #11101E;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: var(--fundo);
+    
+}
+.Titulo{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--cor-cabeçalho);
+}
+
+.Titulo-img {
+    height: 1;
+    padding-right: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: var(--cor-cabeçalho);
+    
+}
+.l-item {
+    display: block;
+    margin: 15px 0;
+    background-color: var(--cor-cabeçalho);
+    padding: 20px;
+    background-color: var(--fundo);
+    font-size: 100%;
+}
+
+.l-item:hover {
+    color: var(--pos-salas);
+}
+
+.ll-item{
+    display: block;
+    margin: 15px 0;
+    background-color: var(--pos-salas);
+    padding: 20px;
+    background-color: var(--pos-salas);
+    border-radius: 80px;
+    color: blue;
+    font-size: 100%;
+}
+
+.musica1 {
+    width: 75%;
+    border-radius: 60px;
+}
+
+
+.musica2 {
+    width: 75%;
+    border-radius: 60px;
+}.musica3 {
+    width: 75%;
+    border-radius: 60px;
+}.musica4 {
+    width: 75%;
+    border-radius: 60px;
+}
+
+.Pub{
+    border-radius: 60px;
+}
+
+.musicais12 {
+    font-family: 'Oswald', sans-serif;
+  background-color: var(--fundo);
+    justify-content: center;
+    padding: 50px 0;
+    padding-left: 50px;
+
+}
+.musicais34 {
+    font-family: 'Oswald', sans-serif;
+  background-color: var(--fundo);
+    justify-content: center;
+    padding: 50px 0;
+    padding-left: 50px;
+    display: block;
+}
+
+.lista {
+    background-color: var(--cor-cabeçalho);
+}
+
+.lista-all {
+    background-color: var(--cor-cabeçalho);
+}
+
+.Titulo-all{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--cor-cabeçalho);
+}
+
+
+.musicais{
+    display: grid;
+    grid-template-columns: 30% 30% 30% 30% 30%;
+    
+}
+
+
+.musicais-all{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+
+
+.salas{
+    display: grid;
+    grid-template-columns: 6% 6% 6% 6% 6%;
+    padding-left: 10px;
+    background-image: url(Original/background-footer.png);
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.sala1:hover {
+    color: var(--pos-salas);
+}
+.sala5:hover {
+    color: var(--pos-salas);
+}
+.sala4:hover {
+    color: var(--pos-salas);
+}
+.sala3:hover {
+    color: var(--pos-salas);
+}
+.sala2:hover {
+    color: var(--pos-salas);
+}
+
+.nome1:hover{
+    color: var(--pos-salas);
+    text-decoration: none;
+}
+.nome2:hover{
+    color: var(--pos-salas);
+    text-decoration: none;
+}
+.nome3:hover{
+    color: var(--pos-salas);
+    text-decoration: none;
+}
+.nome4:hover{
+    color: var(--pos-salas);
+    text-decoration: none;
+}
+
+.sala33{
+    background-color: var(--pos-salas);
+    padding-left: 35%;
+    padding-bottom: 10%;
+    padding-right: 20%;
+    padding-block: 20%;
+    border-radius: 80px;
+}
+.sala22{
+    background-color: var(--pos-salas);
+    padding-left: 35%;
+    padding-bottom: 10%;
+    padding-right: 20%;
+    padding-block: 20%;
+    border-radius: 80px;
+}
+.sala11{
+    background-color: var(--pos-salas);
+    padding-left: 35%;
+    padding-bottom: 10%;
+    padding-right: 20%;
+    padding-block: 20%;
+    border-radius: 80px;
+}
+.sala44{
+    background-color: var(--pos-salas);
+    padding-left: 35%;
+    padding-bottom: 10%;
+    padding-right: 20%;
+    padding-block: 20%;
+    border-radius: 80px;
+}
+.sala55{
+    background-color: var(--pos-salas);
+    padding-left: 35%;  
+    padding-bottom: 10%;
+    padding-right: 20%;
+    padding-block: 20%;
+    border-radius: 80px;
+}
+
+.tudo{
+    background-image: url(Original/background.png);
+    background-size: contain;
+}
+
+.nome1 {
+    animation: mudar-cor 3s ease infinite;
+}
+.nome2 {
+    animation: mudar-cor 3s ease infinite;
+}
+.nome3 {
+    animation: mudar-cor 3s ease infinite;
+}
+.nome4 {
+    animation: mudar-cor 3s ease infinite;
+}
+
